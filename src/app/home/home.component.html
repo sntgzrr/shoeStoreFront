@@ -1,0 +1,75 @@
+<app-navbar></app-navbar>
+
+<div class="colaborations">
+    <carousel [activeSlide]="currentSlideIndex">
+        <div class="slide">
+            <slide *ngFor="let image of images; let i = index">
+                <img [src]="image" alt="Slide {{ i + 1 }}">
+            </slide>
+        </div>
+    </carousel>
+</div>
+
+<div class="prom">
+    <div class="info-comp">
+        <div class="card">
+            <img src="assets/img/logo-mano.png" alt="ROCK N ROLL">
+        </div>
+    </div>
+    <div class="prom-mssg">
+        <h1>¡Encuentra nuestro calzado en tendencia con un 25% de descuento!</h1>
+        <button mat-fab extended>
+            Ver calzado
+        </button>
+    </div>
+</div>
+
+<div class="nov">
+    <h1>Novedades</h1>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://vansco.vteximg.com.br/arquivos/BANNER-MOBILE-SECUNDARIO.jpg?v=638368737273800000" alt="NICK MICHEL">
+            <div class="card-text">
+                <p>SKATE CLASSICS X NICK MICHEL</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="https://vansco.vteximg.com.br/arquivos/MOBILE%20(26).jpg?v=638368745130400000" alt="MIKEY FEBRUARY">
+            <div class="card-text">
+                <p>MIKEY FEBRUARY X VANS</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="https://vansco.vteximg.com.br/arquivos/BANNER-SECUNDARIO-Y-O-MOBILE.jpg?v=638374260514900000" alt="ZAHBA">
+            <div class="card-text">
+                <p>ZAHBA X BEATRICE DOMOND</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="brands">
+    <h1>Marcas</h1>
+    <div class="shoes-brands">
+        <div class="brand">
+            <img src="https://vansco.vteximg.com.br/arquivos/ERA.png?v=637963467144130000" alt="Vans">
+            <p>Vans</p>
+        </div>
+        <div class="brand">
+            <img src="assets/img/adidas.png" alt="Vans">
+            <p>Adidas</p>
+        </div>
+        <div class="brand">
+            <img src="assets/img/nike.png" alt="Vans">
+            <p>Nike</p>
+        </div>
+        <div class="brand">
+            <img src="assets/img/converse.png" alt="Vans">
+            <p>Converse</p>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

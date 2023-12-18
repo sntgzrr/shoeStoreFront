@@ -1,0 +1,25 @@
+a{
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 50px;
+}
+
+img{
+    height: 90%;
+    width: 90px;
+    margin-left: 20px;
+    margin-bottom: -5px;
+}
+
+mat-toolbar{
+    height: 100px;
+    background: azure;
+}
+
+.menu{
+    margin-left: 50%;
+    margin-bottom: 10px;
+    height: 10%;
+}

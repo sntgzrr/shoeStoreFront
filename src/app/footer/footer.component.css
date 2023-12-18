@@ -1,0 +1,41 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 65, 65);
+}
+
+.footer h5{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.info{
+    display: block;
+    padding: 50px;
+}
+
+.info a{
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.info a:hover{
+    transform: scale(1.05);
+}
+
+i{
+    color: rgb(255, 255, 255);
+}
+
+.info .logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.info .sic img{
+    width: 100px;
+    height: 50px;
+}

@@ -1,0 +1,96 @@
+.prom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(179,241,241,1) 0%, rgba(179,241,241,1) 35%, rgba(255,255,255,1) 100%);
+    height: 40%;
+    margin-top: 20px;
+}
+
+.prom-mssg {
+    text-align: center;
+}
+
+.slide img {
+    width: 100%;
+    height: 700px;
+}
+
+.info-comp{
+    text-align: center;
+    padding: 100px;
+}
+
+.info-comp .card{
+    width: 100%;
+}
+
+.info-comp .card img{
+    width: 300px;
+    height: 300px;
+}
+
+.nov{
+    background-color:beige;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card-text {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.brands{
+    background-color:azure;
+    text-align: center;
+    margin-top: 20px;
+    height: 50%;
+}
+
+.shoes-brands{
+    display: flex;
+    justify-content: center;
+}
+
+.brand{
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.brand img{
+    height: 300px;
+    width: 300px;
+}
+
+.brand:hover {
+    transform: scale(1.05);
+}
