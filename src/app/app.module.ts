@@ -8,16 +8,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import {MatSelectModule} from '@angular/material/select';
+import {MatFormFieldModule} from '@angular/material/form-field';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { FooterComponent } from './footer/footer.component';
+import { TrendsComponent } from './trends/trends.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    TrendsComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +31,10 @@ import { FooterComponent } from './footer/footer.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
+    MatSelectModule,
+    MatFormFieldModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

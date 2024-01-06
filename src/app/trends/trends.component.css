@@ -1,0 +1,36 @@
+.trends{
+    background: rgb(255, 170, 170);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.shoes-trends{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.trend{
+    background: azure;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+    height: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.trend img{
+    height: 300px;
+    width: 300px;
+}
+
+.trend:hover {
+    transform: scale(1.05);
+}

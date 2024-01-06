@@ -1,0 +1,22 @@
+<app-navbar></app-navbar>
+<div class="trends">
+    <mat-form-field>
+        <mat-label>Ordenar por</mat-label>
+        <mat-select [(ngModel)]="selected" (ngModelChange)="sortShoes()">
+            <mat-option>Ninguna</mat-option>
+          <mat-option value="brand">Marca</mat-option>
+          <mat-option value="priceAsc">Menor precio</mat-option>
+          <mat-option value="priceDesc">Mayor precio</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+    <div class="shoes-trends">
+        <a href="" *ngFor="let shoe of sortedShoes">
+            <div class="trend">
+                <img src="{{ shoe.img }}" alt="{{ shoe.brand }}">
+                <p>{{ shoe.description }} <br> {{shoe.description2 }}</p>
+                <p style="color: red;">${{ shoe.price | number }}</p>
+            </div>
+        </a>
+</div>
+<app-footer></app-footer>
