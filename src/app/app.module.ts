@@ -15,6 +15,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { FooterComponent } from './footer/footer.component';
 import { TrendsComponent } from './trends/trends.component';
 import { FormsModule } from '@angular/forms';
+import { ShowshoeComponent } from './showshoe/showshoe.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    TrendsComponent
+    TrendsComponent,
+    ShowshoeComponent
   ],
   imports: [
     BrowserModule,

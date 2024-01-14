@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit{
   images: string[] = [
-    'https://via.placeholder.com/600x300/FF5733/000000?text=Image+1',
-    'https://via.placeholder.com/600x300/33FF57/000000?text=Image+2',
-    'https://via.placeholder.com/600x300/5733FF/000000?text=Image+3'
+    'assets/img/car2.jpg',
+    'assets/img/50off.png',
+    'assets/img/car1.jpg',
   ];
   currentSlideIndex = 0;
 

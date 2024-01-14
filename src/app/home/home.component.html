@@ -1,6 +1,13 @@
 <app-navbar></app-navbar>
 
 <div class="colaborations">
+    <div class="promotion">
+        <div class="promotion-mssg">
+            <h2>🏷️FINAL DE TEMPORADA🏷️</h2>
+            <p>¡Es momento de aprovechar! Descuentos increíbles de hasta 50% off en calzado de segunda/sostenible.</p>
+            <button type="button" class="btn btn-light" style="width: 500px;" [routerLink]="['']">Ver calzado <i class="bi bi-arrow-right"></i></button>
+        </div>
+    </div>
     <carousel [activeSlide]="currentSlideIndex">
         <div class="slide">
             <slide *ngFor="let image of images; let i = index">
@@ -10,6 +17,18 @@
     </carousel>
 </div>
 
+<div class="imgs">
+    <div class="justdoit">
+        <img src="assets/img/justdoit.png" alt="JustDoIT">
+    </div>
+    <div class="offthewall">
+        <img src="assets/img/offthewall.png" alt="OffTheWall">
+    </div>
+    <div class="converse">
+        <img src="assets/img/converse.jpg" alt="Converse">
+    </div>
+</div>
+
 <div class="prom">
     <div class="info-comp">
         <div class="card">
@@ -17,41 +36,72 @@
         </div>
     </div>
     <div class="prom-mssg">
-        <h1>¡Encuentra nuestro calzado en tendencia con un 25% de descuento!</h1>
-        <button mat-fab extended>
-            Ver calzado
-        </button>
+        <h1>¡HASTA 25% OFF EN NUESTRO CALZADO EN TENDENCIA!</h1>
+        <button type="button" class="btn btn-light" style="width: 500px;" [routerLink]="['']">Ver calzado <i class="bi bi-arrow-right"></i></button>
     </div>
 </div>
 
+<hr>
+
 <div class="nov">
-    <h1>Novedades</h1>
+    <h2>NOVEDADES</h2>
     <div class="card-container">
         <div class="card">
-            <img src="https://vansco.vteximg.com.br/arquivos/BANNER-MOBILE-SECUNDARIO.jpg?v=638368737273800000" alt="NICK MICHEL">
+            <img src="https://vansco.vteximg.com.br/arquivos/BANNER-MOBILE-SECUNDARIO.jpg?v=638368737273800000"
+                alt="NICK MICHEL">
             <div class="card-text">
                 <p>SKATE CLASSICS X NICK MICHEL</p>
             </div>
         </div>
-    
+
         <div class="card">
-            <img src="https://vansco.vteximg.com.br/arquivos/MOBILE%20(26).jpg?v=638368745130400000" alt="MIKEY FEBRUARY">
+            <img src="https://vansco.vteximg.com.br/arquivos/MOBILE%20(26).jpg?v=638368745130400000"
+                alt="MIKEY FEBRUARY">
             <div class="card-text">
                 <p>MIKEY FEBRUARY X VANS</p>
             </div>
         </div>
-    
+
         <div class="card">
-            <img src="https://vansco.vteximg.com.br/arquivos/BANNER-SECUNDARIO-Y-O-MOBILE.jpg?v=638374260514900000" alt="ZAHBA">
+            <img src="https://vansco.vteximg.com.br/arquivos/BANNER-SECUNDARIO-Y-O-MOBILE.jpg?v=638374260514900000"
+                alt="ZAHBA">
             <div class="card-text">
                 <p>ZAHBA X BEATRICE DOMOND</p>
             </div>
         </div>
     </div>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/samba_launch_tc_d864553dd1.jpg"
+                alt="NICK MICHEL">
+            <div class="card-text">
+                <p>ADIDAS SAMBA</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://static.nike.com/a/images/w_960,c_limit/384d2f2a-34d8-418e-b47c-d1a34e5d8077/image.jpg"
+                alt="MIKEY FEBRUARY">
+            <div class="card-text">
+                <p>NIKE CLUB</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/fw23_rivalry_launch_hp_tc_9fc7703a9e.jpg"
+                alt="ZAHBA">
+            <div class="card-text">
+                <p>RIVALRY ORIGINALS</p>
+            </div>
+        </div>
+    </div>
 </div>
 
+<hr>
+
 <div class="brands">
-    <h1>Marcas</h1>
+    <h2>MARCAS</h2>
     <div class="shoes-brands">
         <div class="brand">
             <img src="https://vansco.vteximg.com.br/arquivos/ERA.png?v=637963467144130000" alt="Vans">

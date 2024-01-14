@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding: 60px;
+}
+
+.img-container img {
+    width: 350px;
+    height: 350px;
+    background-color: azure;
+}
+
+.text-container {
+    padding-top: 60px;
+    font-weight: bolder;
+}
+
+input {
+    font-size: 1em;
+    padding: 3px;
+    width: 160px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.btn-danger {
+    margin-left: 50px;
+    width: 250px;
+}

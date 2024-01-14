@@ -1,0 +1,36 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div class="img-container">
+    <div *ngFor="let image of images" class="imagen-item">
+      <img [src]="image.url" alt="Imagen">
+    </div>
+  </div>
+  <div class="text-container">
+    <div *ngFor="let text of texts" class="texto-item">
+      <p style="color: red;">TENDENCIA</p>
+      <p>{{ text.description }} <br> {{text.description2 }}</p>
+      <p style="color: red;">${{ text.price | number }}</p>
+      <mat-form-field>
+        <mat-label>Selecciona tu talla</mat-label>
+        <mat-select>
+          <mat-option value="brand">8 USA</mat-option>
+          <mat-option value="priceAsc">8.5 USA</mat-option>
+          <mat-option value="priceDesc">9 USA</mat-option>
+          <mat-option value="priceDesc">9.5 USA</mat-option>
+          <mat-option value="priceDesc">10 USA</mat-option>
+          <mat-option value="priceDesc">10.5 USA</mat-option>
+          <mat-option value="priceDesc">11 USA</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <hr>
+      <p>CANTIDAD</p>
+      <input type="number" id="numero" name="numero" value="1" min="1">
+      <button type="button" class="btn btn-danger">COMPRAR</button>
+      <hr>
+      <p>DESCRIPCIÓN</p>
+      <p style="font-weight: 500 !important; font-size: 14px;">{{ text.more }}</p>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

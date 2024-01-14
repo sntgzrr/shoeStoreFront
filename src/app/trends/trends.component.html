@@ -11,7 +11,7 @@
       </mat-form-field>
 
     <div class="shoes-trends">
-        <a href="" *ngFor="let shoe of sortedShoes">
+        <a *ngFor="let shoe of sortedShoes" [routerLink]="['/showshoe', shoe.description, shoe.price]">
             <div class="trend">
                 <img src="{{ shoe.img }}" alt="{{ shoe.brand }}">
                 <p>{{ shoe.description }} <br> {{shoe.description2 }}</p>

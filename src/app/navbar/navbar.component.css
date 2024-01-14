@@ -15,7 +15,7 @@ img{
 
 mat-toolbar{
     height: 100px;
-    background: azure;
+    background: rgb(255, 255, 255);
 }
 
 .menu{

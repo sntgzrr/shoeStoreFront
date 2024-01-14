@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-trends',
@@ -6,12 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./trends.component.css']
 })
 export class TrendsComponent {
+
+  constructor(private router: Router) {}
+
   selected = 'Ninguna';
   shoes: any[] = [
     {
       img: "assets/img/trend1.png",
-      description: 'Tenis Bota Clásicos Negros Sk8-hi Love',
-      description2: ' You To Death',
+      description: 'Tenis Clásicos Azules Style 36 Our',
+      description2: ' Legends Vans',
       brand: 'Vans',
       price: 370000
     },
@@ -25,8 +29,8 @@ export class TrendsComponent {
 
     {
       img: "assets/img/trend2.png",
-      description: 'Tenis Clásicos Negros Old Skool',
-      description2: 'Overt Cc',
+      description: 'Tenis Clásicos Negros Slip-On',
+      description2: ' Checkerboard Pewter Vans',
       brand: 'Vans',
       price: 400000
     },
@@ -70,30 +74,16 @@ export class TrendsComponent {
 
     {
       img: "assets/img/trend9.png",
-      description: 'Custom Chuck Taylor All Star By You',
+      description: 'Custom Chuck Taylor All Star NBA By You',
       brand: 'Converse',
       price: 500000
     },
-    
-    {
-      img: "assets/img/trend10.png",
-      description: 'Tenis Forum Bold Stripes',
-      brand: 'Adidas',
-      price: 600000
-    },
 
     {
-      img: "assets/img/trend11.png",
+      img: "assets/img/trend10.png",
       description: 'Nike Air Force 1 07',
       brand: 'Nike',
       price: 800000
-    },
-
-    {
-      img: "assets/img/trend12.png",
-      description: 'CONS AS-1 Pro',
-      brand: 'Converse',
-      price: 650000
     },
 
   ];
@@ -101,8 +91,8 @@ export class TrendsComponent {
   sortedShoes: any[] = [
     {
       img: "assets/img/trend1.png",
-      description: 'Tenis Bota Clásicos Negros Sk8-hi Love',
-      description2: ' You To Death',
+      description: 'Tenis Clásicos Azules Style 36 Our',
+      description2: ' Legends Vans',
       brand: 'Vans',
       price: 370000
     },
@@ -116,8 +106,8 @@ export class TrendsComponent {
 
     {
       img: "assets/img/trend2.png",
-      description: 'Tenis Clásicos Negros Old Skool',
-      description2: 'Overt Cc',
+      description: 'Tenis Clásicos Negros Slip-On',
+      description2: ' Checkerboard Pewter Vans',
       brand: 'Vans',
       price: 400000
     },
@@ -147,11 +137,11 @@ export class TrendsComponent {
 
     {
       img: "assets/img/trend7.png",
-      description: 'Tenis Forum Low CL The Grinch"',
+      description: 'Tenis Forum Low CL The Grinch',
       brand: 'Adidas',
       price: 750000
     },
-   
+
     {
       img: "assets/img/trend8.png",
       description: 'Air Jordan 1 Retro High OG',
@@ -161,30 +151,16 @@ export class TrendsComponent {
 
     {
       img: "assets/img/trend9.png",
-      description: 'Custom Chuck Taylor All Star By You',
+      description: 'Custom Chuck Taylor All Star NBA By You',
       brand: 'Converse',
       price: 500000
     },
 
     {
       img: "assets/img/trend10.png",
-      description: 'Tenis Forum Bold Stripes',
-      brand: 'Adidas',
-      price: 600000
-    },
-
-    {
-      img: "assets/img/trend11.png",
       description: 'Nike Air Force 1 07',
       brand: 'Nike',
       price: 800000
-    },
-
-    {
-      img: "assets/img/trend12.png",
-      description: 'CONS AS-1 Pro',
-      brand: 'Converse',
-      price: 650000
     },
 
   ];
@@ -204,5 +180,9 @@ export class TrendsComponent {
         this.sortedShoes = this.shoes.slice();
         break;
     }
+  }
+
+  navigateToShowShoe(description: string, price: number) {
+    this.router.navigate(['/showshoe', description, price]);
   }
 }
