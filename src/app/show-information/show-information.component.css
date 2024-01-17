@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+}
+
+.title{
+    height: 100%;
+    width: 142%;
+    padding: 30px;
+    text-align: center;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.title img{
+  height: 700px;
+  width: 1000px;
+  padding: 30px;
+}
+
+.author{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 530px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.author p {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.author img{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+}
+
+.info{
+    font-weight: 300;
+    width: 800px;
+    margin-top: 30px;
+    margin-left: 530px;
+    margin-bottom: 30px;
+}

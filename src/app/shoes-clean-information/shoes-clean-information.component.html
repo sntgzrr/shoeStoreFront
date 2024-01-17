@@ -1,0 +1,15 @@
+<app-navbar></app-navbar>
+<div class="container-info">
+    <div class="information">
+        <a *ngFor="let info of information" [routerLink]="['/showinformation', info.description]" style="height: 700px; width: 600px;">
+            <div class="card" style="height: 700px; width: 600px;">
+                <img src="{{ info.img }}">
+                <div class="card-text">
+                    <h2>{{ info.description }}</h2>
+                    <p>{{ info.more }}</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+<app-footer></app-footer>

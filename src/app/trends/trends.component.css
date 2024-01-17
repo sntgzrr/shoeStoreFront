@@ -1,7 +1,6 @@
 .trends{
     background: linear-gradient(90deg, rgba(215,253,255,1) 0%, rgba(215,253,255,1) 52%, rgba(255,255,255,1) 100%);
     text-align: center;
-    padding-top: 20px;
 }
 
 .shoes-trends{
@@ -33,4 +32,28 @@ a{
 
 .trend:hover {
     transform: scale(1.05);
+}
+
+.promotion{
+    background: red;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.promotion h2{
+    color: white;
+    font-weight: bolder;
+}
+
+.promotion p{
+    color: white;
+    text-wrap: balance;
+}
+
+.options{
+    margin-top: 10px;
+    margin-left: -1470px;
 }

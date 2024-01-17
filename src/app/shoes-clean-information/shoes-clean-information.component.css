@@ -1,0 +1,43 @@
+.container-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.information div{
+    margin: 50px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-text {
+    width: 500px;
+}
+
+a{
+   text-decoration: none;
+   margin: 70px;
+}

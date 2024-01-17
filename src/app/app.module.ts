@@ -16,6 +16,8 @@ import { FooterComponent } from './footer/footer.component';
 import { TrendsComponent } from './trends/trends.component';
 import { FormsModule } from '@angular/forms';
 import { ShowshoeComponent } from './showshoe/showshoe.component';
+import { ShoesCleanInformationComponent } from './shoes-clean-information/shoes-clean-information.component';
+import { ShowInformationComponent } from './show-information/show-information.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ShowshoeComponent } from './showshoe/showshoe.component';
     NavbarComponent,
     FooterComponent,
     TrendsComponent,
-    ShowshoeComponent
+    ShowshoeComponent,
+    ShoesCleanInformationComponent,
+    ShowInformationComponent
   ],
   imports: [
     BrowserModule,

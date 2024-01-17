@@ -1,22 +1,30 @@
 <app-navbar></app-navbar>
 <div class="trends">
+  <div class="promotion">
+    <div class="promotion-mssg">
+      <h2>🏷️FINAL DE TEMPORADA🏷️</h2>
+      <p>¡Es momento de aprovechar! Descuentos increíbles de hasta 25% off en TODO este calzado.</p>
+    </div>
+  </div>
+  <div class="options">
     <mat-form-field>
-        <mat-label>Ordenar por</mat-label>
-        <mat-select [(ngModel)]="selected" (ngModelChange)="sortShoes()">
-            <mat-option>Ninguna</mat-option>
-          <mat-option value="brand">Marca</mat-option>
-          <mat-option value="priceAsc">Menor precio</mat-option>
-          <mat-option value="priceDesc">Mayor precio</mat-option>
-        </mat-select>
-      </mat-form-field>
+      <mat-label>Ordenar por</mat-label>
+      <mat-select [(ngModel)]="selected" (ngModelChange)="sortShoes()">
+        <mat-option>Ninguna</mat-option>
+        <mat-option value="brand">Marca</mat-option>
+        <mat-option value="priceAsc">Menor precio</mat-option>
+        <mat-option value="priceDesc">Mayor precio</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
 
-    <div class="shoes-trends">
-        <a *ngFor="let shoe of sortedShoes" [routerLink]="['/showshoe', shoe.description, shoe.price]">
-            <div class="trend">
-                <img src="{{ shoe.img }}" alt="{{ shoe.brand }}">
-                <p>{{ shoe.description }} <br> {{shoe.description2 }}</p>
-                <p style="color: red;">${{ shoe.price | number }}</p>
-            </div>
-        </a>
-</div>
-<app-footer></app-footer>
+  <div class="shoes-trends">
+    <a *ngFor="let shoe of sortedShoes" [routerLink]="['/showshoe', shoe.description, shoe.price]">
+      <div class="trend">
+        <img src="{{ shoe.img }}" alt="{{ shoe.brand }}">
+        <p>{{ shoe.description }} <br> {{shoe.description2 }}</p>
+        <p style="color: red;">${{ shoe.price | number }}</p>
+      </div>
+    </a>
+  </div>
+  <app-footer></app-footer>
