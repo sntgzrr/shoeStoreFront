@@ -26,14 +26,22 @@
     </div>
     <div class="payment">
         <p>FORMAS DE PAGO</p>
-        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-mastercard.svg" alt="">
-        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-maestro.svg" alt="">
-        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-pse.svg" alt="">
-        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-visa.svg" alt="">
-        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-american-express.svg" alt="">
-        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-efecty.svg" alt="">
-        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-discover.svg" alt="">
-        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-matrix.svg" alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-mastercard.svg"
+            alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-maestro.svg"
+            alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-pse.svg"
+            alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-visa.svg"
+            alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-american-express.svg"
+            alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-efecty.svg"
+            alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-discover.svg"
+            alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-matrix.svg"
+            alt="">
     </div>
     <table class="table">
         <thead>
@@ -46,7 +54,7 @@
                 <th scope="col">PRECIO CANTIDAD POR UNIDAD</th>
             </tr>
         </thead>
-        <tbody *ngFor="let cart of carts">
+        <tbody *ngFor="let cart of carts; let i = index">
             <tr>
                 <td><img [src]="cart.img.url"></td>
                 <td>{{ cart.model }}</td>
@@ -54,6 +62,8 @@
                 <td>{{ cart.num }}</td>
                 <td>${{ cart.price | number}}</td>
                 <td>${{ cart.finalprice | number}}</td>
+                <td><button type="button" class="btn btn-dark" (click)="eliminarItem(i)"><i
+                            class="bi bi-trash-fill"></i></button></td>
             </tr>
         </tbody>
     </table>
