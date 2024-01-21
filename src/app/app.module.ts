@@ -18,6 +18,8 @@ import { FormsModule } from '@angular/forms';
 import { ShowshoeComponent } from './showshoe/showshoe.component';
 import { ShoesCleanInformationComponent } from './shoes-clean-information/shoes-clean-information.component';
 import { ShowInformationComponent } from './show-information/show-information.component';
+import { SustainableComponent } from './sustainable/sustainable.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ShowInformationComponent } from './show-information/show-information.co
     TrendsComponent,
     ShowshoeComponent,
     ShoesCleanInformationComponent,
-    ShowInformationComponent
+    ShowInformationComponent,
+    SustainableComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,

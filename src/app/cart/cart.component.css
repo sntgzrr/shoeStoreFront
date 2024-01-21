@@ -1,0 +1,57 @@
+.cart-contianer{
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.promotion{
+    margin-bottom: 30px;
+}
+
+.buy{
+    margin-left: 50px;
+}
+
+.buy-data{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.payment{
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.payment img{
+    padding: 5px;
+}
+
+.prom{
+    display: block;
+    background-color: rgb(207, 207, 207);
+    width: 500px;
+    padding: 30px;
+}
+
+.table tbody tr td {
+    font-weight: 300;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+}
+
+.table tbody tr td img{
+    height: 100px;
+    width: 100px;
+}
+
+.table thead tr th{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}

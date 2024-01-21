@@ -1,17 +1,20 @@
 <mat-toolbar>
     <img src="assets/img/logo.png" alt="kix-logo">
     <div class="menu">
-        <a href="http://localhost:4200/home">
+        <a [routerLink]="['/home']">
             Inicio
         </a>
-        <a href="http://localhost:4200/trends">
+        <a [routerLink]="['/trends']">
             Tendencias
         </a>
-        <a href="">
+        <a [routerLink]="['/sustainable']">
             Calzado sostenible
         </a>
-        <a href="http://localhost:4200/cleaning">
+        <a [routerLink]="['/cleaning']">
             Artículos
+        </a>
+        <a [routerLink]="['/cart']">
+            <i class="bi bi-cart-fill"></i>
         </a>
     </div>
 </mat-toolbar>

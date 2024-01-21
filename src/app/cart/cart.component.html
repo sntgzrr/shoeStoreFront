@@ -1,0 +1,71 @@
+<app-navbar></app-navbar>
+<div class="cart-contianer" *ngIf="carts.length != 0">
+    <div class="promotion">
+        <h3 style="font-weight: bolder;">TU CARRITO</h3>
+        <p>Los artículos en tu carrito no están reservados.
+            <br>Termina el proceso de compra ahora para hacerte con ellos.
+        </p>
+        <div class="prom">
+            <h4 class="mssg">🏷️FINAL DE TEMPORADA🏷️</h4>
+            <p>¡Es momento de aprovechar! Descuentos increíbles de hasta 50% off en calzado sostenible y 25% en calzado
+                en tendencia</p>
+        </div>
+    </div>
+    <div class="buy">
+        <button type="button" class="btn btn-dark" style="padding: 10px; margin-bottom: 30px; width: 200px;"
+            [routerLink]="['/home']">Pagar <i class="bi bi-arrow-right"></i></button>
+        <h5>RESUMEN DEL PEDIDO</h5>
+        <div class="buy-data">
+            <p>{{ carts.length }} Producto(s):</p>
+            <p>${{ sumPrice | number}}</p>
+            <p>Entrega:</p>
+            <p>Gratis</p>
+            <p style="font-weight: bolder;">Total:</p>
+            <p style="font-weight: bolder; color: red;">${{ sumPrice | number}}</p>
+        </div>
+    </div>
+    <div class="payment">
+        <p>FORMAS DE PAGO</p>
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-mastercard.svg" alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-maestro.svg" alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-pse.svg" alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-visa.svg" alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-american-express.svg" alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-efecty.svg" alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-discover.svg" alt="">
+        <img src="https://www.adidas.co/static/checkout/react/b33d5f6/assets/img/accepted-payment-methods/icon-adidas-matrix.svg" alt="">
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">CALZADO</th>
+                <th scope="col">NOMBRE</th>
+                <th scope="col">TALLA</th>
+                <th scope="col">CANTIDAD</th>
+                <th scope="col">PRECIO UNIDAD</th>
+                <th scope="col">PRECIO CANTIDAD POR UNIDAD</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let cart of carts">
+            <tr>
+                <td><img [src]="cart.img.url"></td>
+                <td>{{ cart.model }}</td>
+                <td>{{ cart.size }}</td>
+                <td>{{ cart.num }}</td>
+                <td>${{ cart.price | number}}</td>
+                <td>${{ cart.finalprice | number}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="container" *ngIf="carts.length == 0">
+    <h3 style="font-weight: bolder;">TU CARRITO ESTÁ VACÍO</h3>
+    <p>¡Aprovecha nuestras ofertas!</p>
+    <button type="button" class="btn btn-dark" style="padding: 10px; margin-bottom: 30px;" [routerLink]="['/home']">Ver
+        ofertas <i class="bi bi-arrow-right"></i></button>
+    <h6>FORMAS DE PAGO</h6>
+    <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esCO/Images/logossured-d_tcm195-1040556.png"
+        alt="">
+</div>
+<app-footer></app-footer>
