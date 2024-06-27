@@ -22,6 +22,11 @@
     padding: 5px;
 }
 
+.info p{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
 .info a:hover{
     transform: scale(1.05);
 }

@@ -61,7 +61,7 @@ export class ShowshoeComponent implements OnInit {
           description,
           description2: 'Legends Vans',
           price,
-          more: 'El modelo Old Skool, es un zapato clásico de skate y es el primer modelo en llevar la icónica franja lateral, su diseño de perfil bajo con amarre de cordones cuenta con una parte superior de cuero y lona, con una lengüeta y forro acolchados, además de la muy reconocida suela en goma con forma de Waffle.'
+          more: 'El modelo Old Skool, es un zapato clásico de skate y es el primer modelo en llevar la icónica franja lateral, su diseño de perfil bajo con amarre de cordones cuenta con una parte superior de cuero y lona, con una lengüeta y forro acolchados, además de la muy reconocida suela en goma con forma de Waffle. (Imágenes y descripción tomado de https://www.vans.com.co).'
         },
       ];
       this.shoe.model = description;
@@ -80,7 +80,7 @@ export class ShowshoeComponent implements OnInit {
           description,
           description2: '',
           price,
-          more: 'Descubre un estilo clásico con un toque travieso cortesía del gruñón favorito de todos: el Grinch. No importa si vas a caminar por el monte Crumpit o a disfrutar de la naturaleza, estos tenis adidas mantienen tus pies cómodos y tu estilo definido. El cuero suave, las tiras ajustables de cierre por contacto y la suela de caucho los hace perfectos para la aventura diaria. Luciendo el distintivo color verde y estampados del Grinch, estos tenis divertidos con seguridad alegrarán a todos los que pasen por ahí.'
+          more: 'Descubre un estilo clásico con un toque travieso cortesía del gruñón favorito de todos: el Grinch. No importa si vas a caminar por el monte Crumpit o a disfrutar de la naturaleza, estos tenis adidas mantienen tus pies cómodos y tu estilo definido. El cuero suave, las tiras ajustables de cierre por contacto y la suela de caucho los hace perfectos para la aventura diaria. Luciendo el distintivo color verde y estampados del Grinch, estos tenis divertidos con seguridad alegrarán a todos los que pasen por ahí. (Imágenes y descripción tomados de https://www.adidas.co).'
         },
       ];
       this.shoe.model = description;
@@ -99,7 +99,7 @@ export class ShowshoeComponent implements OnInit {
           description,
           description2: 'Checkerboard Pewter Vans',
           price,
-          more: 'Introducido por primera vez en 1977, el Vans #98 – ahora conocido como Classic Slip-On – se convirtió instantáneamente en un ícono en el sur de California. Avance para hoy y el Classic Slip-On está conocido mundialmente por su silueta confortable, facilidad de usar y diseño amado. Con la icónica estampa de checkerboard de Vans, el Classic Slip-On es un ítem esencial para todos los días con el verdadero estilo «Off The Wall». Este icónico calzado slip-on también incluye palas discretas en lona, cuellos acolchados con apoyo, acentos laterales elásticos y las características suelas waffle en caucho.'
+          more: 'Introducido por primera vez en 1977, el Vans #98 – ahora conocido como Classic Slip-On – se convirtió instantáneamente en un ícono en el sur de California. Avance para hoy y el Classic Slip-On está conocido mundialmente por su silueta confortable, facilidad de usar y diseño amado. Con la icónica estampa de checkerboard de Vans, el Classic Slip-On es un ítem esencial para todos los días con el verdadero estilo «Off The Wall». Este icónico calzado slip-on también incluye palas discretas en lona, cuellos acolchados con apoyo, acentos laterales elásticos y las características suelas waffle en caucho. (Imágenes y descripción tomado de https://www.vans.com.co).'
         },
       ];
       this.shoe.model = description;
@@ -118,7 +118,7 @@ export class ShowshoeComponent implements OnInit {
           description,
           description2: 'Smoked Canvas',
           price,
-          more: 'Mejora tu estilo de juego con estas Chuck de lona y plataforma. Gracias a un tratamiento para lograr un look vintage, cuentan con la sensación de tus "zapatillas favoritas" desde el primer día.'
+          more: 'Mejora tu estilo de juego con estas Chuck de lona y plataforma. Gracias a un tratamiento para lograr un look vintage, cuentan con la sensación de tus "zapatillas favoritas" desde el primer día. (Imágenes y descripción tomadas de https://www.converse.com).'
         },
       ];
       this.shoe.model = description;
@@ -137,7 +137,7 @@ export class ShowshoeComponent implements OnInit {
           description,
           description2: 'Checkerboard',
           price,
-          more: 'Conocido inicialmente como Vans #36, el Old Skool estrenó en 1977 con una nueva adición peculiar: un diseño aleatorio hecho por Paul Van Doren, originalmente llamado de “franja de jazz”. Hoy, el famoso Vans Sidestripe se volvió el inconfundible – e instantáneamente reconocido – distintivo de la marca Vans. Construido con empeines duraderos en gamuza y lona con nuestra estampa clásica en checkerboard, el Primary Check Old Skool rinde homenaje a nuestra tradición, garantizando que este zapato de cuello bajo con trenzas permanezca icónico como siempre. También incluye punteras reforzadas, cuellos acolchados firmes y la suela de goma característica de la marca en wafle. • Zapato icónico de cuello bajo con franjas laterales de Vans • Empeines duraderos en gamuza y lona • Estampa clásica en checkerboard • Cierre con trenzas • Punteras reforzadas • Cuellos acolchados firmes • Suela de goma característica de la marca en wafle.'
+          more: 'Conocido inicialmente como Vans #36, el Old Skool estrenó en 1977 con una nueva adición peculiar: un diseño aleatorio hecho por Paul Van Doren, originalmente llamado de “franja de jazz”. Hoy, el famoso Vans Sidestripe se volvió el inconfundible – e instantáneamente reconocido – distintivo de la marca Vans. Construido con empeines duraderos en gamuza y lona con nuestra estampa clásica en checkerboard, el Primary Check Old Skool rinde homenaje a nuestra tradición, garantizando que este zapato de cuello bajo con trenzas permanezca icónico como siempre. También incluye punteras reforzadas, cuellos acolchados firmes y la suela de goma característica de la marca en wafle. • Zapato icónico de cuello bajo con franjas laterales de Vans • Empeines duraderos en gamuza y lona • Estampa clásica en checkerboard • Cierre con trenzas • Punteras reforzadas • Cuellos acolchados firmes • Suela de goma característica de la marca en wafle. (Imágenes y descripción tomado de https://www.vans.com.co).'
         },
       ];
       this.shoe.model = description;
@@ -156,7 +156,7 @@ export class ShowshoeComponent implements OnInit {
           description,
           description2: '',
           price,
-          more: 'Las Air Jordan 1 High OG recuperan el clásico para ofrecer un look icónico con una sensación familiar. Las superposiciones de piel malva ofrecen un suave contraste con la parte superior neutra para crear acabado impecable e ideal para la temporada. Al igual que la característica canasta en pleno giro de MJ, esta edición moderna del modelo favorito de todos los tiempos ofrece un estilo clásico de baloncesto.'
+          more: 'Las Air Jordan 1 High OG recuperan el clásico para ofrecer un look icónico con una sensación familiar. Las superposiciones de piel malva ofrecen un suave contraste con la parte superior neutra para crear acabado impecable e ideal para la temporada. Al igual que la característica canasta en pleno giro de MJ, esta edición moderna del modelo favorito de todos los tiempos ofrece un estilo clásico de baloncesto. (Imágenes y descripción tomadas de https://www.nike.com/es/).'
         },
       ];
       this.shoe.model = description;
@@ -175,7 +175,7 @@ export class ShowshoeComponent implements OnInit {
           description,
           description2: '',
           price,
-          more: 'Te presentamos los tenis adidas Forum inspirados en Max, el perro fiel de "Cómo el Grinch robó la Navidad" del Dr. Seuss. Presenta una parte superior de gamuza prémium adornada con unos divertidos detalles extraíbles en los cordones e incluye dos juegos de cordones que te permiten personalizar tu look. Conserva todos los elementos característicos de la Forum original, como la suela de caucho y la inconfundible silueta de perfil bajo. Directa de Villa Quién, llega lista para acompañarte en todas tus aventuras.'
+          more: 'Te presentamos los tenis adidas Forum inspirados en Max, el perro fiel de "Cómo el Grinch robó la Navidad" del Dr. Seuss. Presenta una parte superior de gamuza prémium adornada con unos divertidos detalles extraíbles en los cordones e incluye dos juegos de cordones que te permiten personalizar tu look. Conserva todos los elementos característicos de la Forum original, como la suela de caucho y la inconfundible silueta de perfil bajo. Directa de Villa Quién, llega lista para acompañarte en todas tus aventuras. (Imágenes y descripción tomados de https://www.adidas.co).'
         },
       ];
       this.shoe.model = description;
@@ -194,7 +194,7 @@ export class ShowshoeComponent implements OnInit {
           description,
           description2: '',
           price,
-          more: 'Las icónicas Air Jordan 1 mantienen su diseño familiar e impecable, aunque se actualizan para la cultura actual de los amantes de las zapatillas. Esta versión de las Retro High OG se presenta con piel premium, una amortiguación cómoda y detalles de diseño clásicos.'
+          more: 'Las icónicas Air Jordan 1 mantienen su diseño familiar e impecable, aunque se actualizan para la cultura actual de los amantes de las zapatillas. Esta versión de las Retro High OG se presenta con piel premium, una amortiguación cómoda y detalles de diseño clásicos. (Imágenes y descripción tomadas de https://www.nike.com/es/).'
         },
       ];
       this.shoe.model = description;
@@ -213,7 +213,7 @@ export class ShowshoeComponent implements OnInit {
           description,
           description2: '',
           price,
-          more: 'Adéntrate de lleno en toda la acción con las NBA Chuck personalizadas. Elige entre18 equipos All Star y personalízalas a tu gusto en tela vaquera o lona. El diseño incorpora el logo, la marca y los años en competición del equipo, pero en lo que respecta al color, la pelota está en tu tejado.'
+          more: 'Adéntrate de lleno en toda la acción con las NBA Chuck personalizadas. Elige entre18 equipos All Star y personalízalas a tu gusto en tela vaquera o lona. El diseño incorpora el logo, la marca y los años en competición del equipo, pero en lo que respecta al color, la pelota está en tu tejado. (Imágenes y descripción tomadas de https://www.converse.com).'
         },
       ];
       this.shoe.model = description;
@@ -232,7 +232,7 @@ export class ShowshoeComponent implements OnInit {
           description,
           description2: '',
           price,
-          more: 'Suma puntos con este clásico del baloncesto legendario. Con un diseño que combina la comodidad sobre el parqué con un estilo fuera de la cancha, estas AF1 lucen revestimientos suaves y toques de color sutiles para ofrecer un estilo de baloncesto. Las unidades Air ocultas y la duradera confección de los 80, que rinde homenaje a una era, añaden la comodidad que más te gusta.'
+          more: 'Suma puntos con este clásico del baloncesto legendario. Con un diseño que combina la comodidad sobre el parqué con un estilo fuera de la cancha, estas AF1 lucen revestimientos suaves y toques de color sutiles para ofrecer un estilo de baloncesto. Las unidades Air ocultas y la duradera confección de los 80, que rinde homenaje a una era, añaden la comodidad que más te gusta. (Imágenes y descripción tomadas de https://www.nike.com/es/).'
         },
       ];
       this.shoe.model = description;
@@ -251,7 +251,7 @@ export class ShowshoeComponent implements OnInit {
           description,
           description2: '',
           price,
-          more: 'El icono del baloncesto de los 80 vuelve con detalles clásicos y un estilo de baloncesto retro. La zona del tobillo acolchada y de perfil bajo lleva el estilo vintage a las calles y te permite jugar con comodidad en cualquier parte.'
+          more: 'El icono del baloncesto de los 80 vuelve con detalles clásicos y un estilo de baloncesto retro. La zona del tobillo acolchada y de perfil bajo lleva el estilo vintage a las calles y te permite jugar con comodidad en cualquier parte. (Imágenes y descripción tomadas de https://www.nike.com/es/).'
         },
       ];
       this.shoe.model = description;
@@ -270,7 +270,7 @@ export class ShowshoeComponent implements OnInit {
           description,
           description2: '',
           price,
-          more: 'La variedad es lo que te motiva. Estos tenis de running cómodos y versátiles son perfectos para correr, levantar pesas o jugar un picadito. Presentan una estructura ligera con amortiguación suave. Los refuerzos sin costuras sujetan el pie en los movimientos laterales y cambios de dirección rápidos.'
+          more: 'La variedad es lo que te motiva. Estos tenis de running cómodos y versátiles son perfectos para correr, levantar pesas o jugar un picadito. Presentan una estructura ligera con amortiguación suave. Los refuerzos sin costuras sujetan el pie en los movimientos laterales y cambios de dirección rápidos. (Imágenes y descripción tomadas de https://www.adidas.co).'
         },
       ];
       this.shoe.model = description;
